@@ -4,13 +4,55 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="AboutMe.MainPage">
+             x:Class="AboutMe.MainPage"
+             BackgroundColor="Bisque"
+             
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Holden Laurance" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+        <Frame BackgroundColor="White"
+               Margin="20">
+            <StackLayout Orientation="Horizontal">
+                <BoxView BackgroundColor="Gray"
+                         HeightRequest="50"
+                         WidthRequest="50">
+                    
+                </BoxView>
+                <Label Text="About Me"
+                       FontSize="28"
+                       TextColor="Gray"
+                       VerticalTextAlignment="Center"/>
+            </StackLayout>
+                
+        </Frame>
+        <Frame BackgroundColor="White"
+               Margin="20">
+            <StackLayout Orientation="Horizontal">
+                <BoxView BackgroundColor="Gray"
+                         HeightRequest="50"
+                         WidthRequest="50">
 
+                </BoxView>
+                <Label Text="About Me"
+                       FontSize="28"
+                       TextColor="Gray"
+                       VerticalTextAlignment="Center"/>
+            </StackLayout>
+
+        </Frame>
+        <Frame BackgroundColor="White"
+               Margin="20">
+            <StackLayout Orientation="Horizontal">
+                <BoxView BackgroundColor="Gray"
+                         HeightRequest="50"
+                         WidthRequest="50">
+
+                </BoxView>
+                <Label Text="About Me"
+                       FontSize="28"
+                       TextColor="Gray"
+                       VerticalTextAlignment="Center"/>
+            </StackLayout>
+
+        </Frame>
+    </StackLayout>
 </ContentPage>
