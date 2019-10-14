@@ -9,15 +9,33 @@
              
 
     <StackLayout>
+        <Button 
+            Text="About Me"        
+            BackgroundColor="Cyan"
+            TextColor="Black"></Button>
+        <ImageButton 
+           Source="icons8_profile_30.png"
+            BackgroundColor="LightGreen"
+            WidthRequest="50"
+            HeightRequest="50"
+            Clicked=""></ImageButton>
+        <Button 
+            Text="About Me" 
+            BackgroundColor="White"></Button>
         <Frame BackgroundColor="White"
                Margin="20">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped=""/>
+            </Frame.GestureRecognizers>
+            
             <StackLayout Orientation="Horizontal">
-                <BoxView BackgroundColor="Gray"
-                         HeightRequest="50"
-                         WidthRequest="50">
-                    
-                </BoxView>
-                <Label Text="About Me"
+                
+            <Image
+                HeightRequest="50"
+                Source="icons8_profile_30.png"
+                
+                />
+            <Label Text="About Me"
                        FontSize="28"
                        TextColor="Gray"
                        VerticalTextAlignment="Center"/>
@@ -27,12 +45,12 @@
         <Frame BackgroundColor="White"
                Margin="20">
             <StackLayout Orientation="Horizontal">
-                <BoxView BackgroundColor="Gray"
-                         HeightRequest="50"
-                         WidthRequest="50">
-
-                </BoxView>
-                <Label Text="About Me"
+            <Image
+                HeightRequest="50"
+                Source="https://img.icons8.com/dotty/80/000000/contact-card.png"
+                
+                />
+            <Label Text="About Me"
                        FontSize="28"
                        TextColor="Gray"
                        VerticalTextAlignment="Center"/>
@@ -42,12 +60,12 @@
         <Frame BackgroundColor="White"
                Margin="20">
             <StackLayout Orientation="Horizontal">
-                <BoxView BackgroundColor="Gray"
-                         HeightRequest="50"
-                         WidthRequest="50">
-
-                </BoxView>
-                <Label Text="About Me"
+            <Image
+                HeightRequest="50"
+                Source="https://img.icons8.com/dusk/64/000000/visualization-skill.png"
+                
+                />
+            <Label Text="About Me"
                        FontSize="28"
                        TextColor="Gray"
                        VerticalTextAlignment="Center"/>

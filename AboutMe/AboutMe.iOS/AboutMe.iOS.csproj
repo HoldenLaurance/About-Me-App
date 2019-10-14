@@ -130,4 +130,7 @@
       <Name>AboutMe</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\icons8_profile_30.png" />
+  </ItemGroup>
 </Project>
